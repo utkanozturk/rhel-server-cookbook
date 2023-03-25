@@ -1,3 +1,3 @@
-# rhel-server-cookbook
+# server-cookbook
 
 Installing and configuring a KVM
