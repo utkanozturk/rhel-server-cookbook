@@ -15,4 +15,11 @@ Install the software needed to provide an environment
 
 ~]# yum -y install qemu-kvm qemu-img libvirt
 
+~]# yum -y install virt-install libvirt-python python-virthost libvirt-client
+
+~]# systemctl status libvirtd
+
+~]# systemctl enable libvirtd
+
+We'll use NetworkManager to create a bridge, so don't disable NetworkManager and bridge-utils installed.
 
